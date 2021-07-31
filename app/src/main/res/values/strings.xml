@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Dog identifier</string>
+    <string name="img_dog_image_description">Imagen de perrito</string>
+    <string name="text_homework_1">Desarrollo básico para aplicación de IoT</string>
 </resources>
