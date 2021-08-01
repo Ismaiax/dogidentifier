@@ -9,8 +9,14 @@
     <string name="text_mainactivity_description">Obten información sobre su nombre, casa, dueño y otras características sobre el perrito, obtenidas del registro</string>
     <string name="text_mainactivity_under_description">Antes de comenzar, si no cuentas con un registro comienza por aquí</string>
 
+
+    <!-- Actividad inicia de sesión -->
+    <string name="text_loginactivity_description">Para comenzar, inicia sesión</string>
+
     <!-- Acciones -->
     <string name="action_login">Iniciar sesión</string>
     <string name="action_register">Registrarse</string>
+    <string name="label_name">Nombre completo</string>
+    <string name="label_email">Correo electrónico</string>
 
 </resources>
