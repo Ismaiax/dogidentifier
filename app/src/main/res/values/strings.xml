@@ -13,10 +13,18 @@
     <!-- Actividad inicia de sesión -->
     <string name="text_loginactivity_description">Para comenzar, inicia sesión</string>
 
+    <!-- Actividad página principal de usuario -->
+    <string name="text_useractivity_hello">¡Hola!</string>
+    <string name="text_useractivity_description">Selecciona la opción que deseas realizar</string>
+
     <!-- Acciones -->
     <string name="action_login">Iniciar sesión</string>
     <string name="action_register">Registrarse</string>
     <string name="label_name">Nombre completo</string>
     <string name="label_email">Correo electrónico</string>
+    <string name="label_profile">Perfil</string>
+    <string name="label_takePic">Tomar foto</string>
+    <string name="label_recongnition">Reconoce</string>
+    <string name="label_help">Ayuda</string>
 
 </resources>

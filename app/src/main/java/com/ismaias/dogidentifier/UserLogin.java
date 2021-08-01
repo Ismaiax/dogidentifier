@@ -66,7 +66,7 @@ public class UserLogin extends AppCompatActivity {
                                 @Override
                                 public void onResponse(String response)
                                 {
-                                    Toast.makeText(getApplicationContext(), response, Toast.LENGTH_SHORT).show();
+                                    //Toast.makeText(getApplicationContext(), response, Toast.LENGTH_SHORT).show();
 
                                     try {
 
