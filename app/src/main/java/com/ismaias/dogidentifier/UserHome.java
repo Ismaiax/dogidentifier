@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileOutputStream;
@@ -65,5 +66,13 @@ public class UserHome extends AppCompatActivity {
 
 
         }
+    }
+
+
+
+
+    // Acciones de botones
+    public void demoAction(View v) {
+        Toast.makeText(this, "Esta función aún no está disponible en este momento", Toast.LENGTH_LONG).show();
     }
 }

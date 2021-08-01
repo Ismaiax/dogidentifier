@@ -8,11 +8,16 @@ import android.graphics.BitmapFactory;
 import android.media.Image;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class DogRegister extends AppCompatActivity {
 
     ImageView dogPic;
+    ImageButton save;
+    ImageButton back;
 
 
     @Override
@@ -27,5 +32,14 @@ public class DogRegister extends AppCompatActivity {
         Bitmap bitmap = (Bitmap) intent.getParcelableExtra("BitmapImage");
         dogPic.setImageBitmap(bitmap);
 
+    }
+
+
+    public void registroUsuario(View v) {
+        Toast.makeText(this, "Esta función aún no está disponible en este momento", Toast.LENGTH_LONG).show();
+    }
+    public void backHome(View view) {
+        Intent intent = new Intent(this, UserHome.class);
+        startActivity(intent);
     }
 }

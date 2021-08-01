@@ -17,14 +17,23 @@
     <string name="text_useractivity_hello">¡Hola!</string>
     <string name="text_useractivity_description">Selecciona la opción que deseas realizar</string>
 
+    <!-- Actividad página de registro de perro -->
+    <string name="text_registeractivity_title">Comienza el registro</string>
+    <string name="text_registeractivity_info">Llena los siguientes campos para registrar al perro, entre más información proporciones será útil para su reconocimiento</string>
+
     <!-- Acciones -->
     <string name="action_login">Iniciar sesión</string>
     <string name="action_register">Registrarse</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_back">Regresar</string>
     <string name="label_name">Nombre completo</string>
     <string name="label_email">Correo electrónico</string>
     <string name="label_profile">Perfil</string>
     <string name="label_takePic">Tomar foto</string>
     <string name="label_recongnition">Reconoce</string>
     <string name="label_help">Ayuda</string>
+    <string name="label_dogname">Nombre del perro</string>
+    <string name="label_dogowner">Nombre del dueño</string>
+    <string name="label_dogaddress">Dirección</string>
 
 </resources>
