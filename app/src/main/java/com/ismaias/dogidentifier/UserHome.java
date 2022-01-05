@@ -74,5 +74,6 @@ public class UserHome extends AppCompatActivity {
     // Acciones de botones
     public void demoAction(View v) {
         Toast.makeText(this, "Esta función aún no está disponible en este momento", Toast.LENGTH_LONG).show();
+
     }
 }
